@@ -1,0 +1,8 @@
+/* Estilos para el zoom al pasar el mouse */
+.zoom {
+  transition: transform 0.2s ease-in-out; /* Animación suave de 0.2 segundos */
+}
+
+.zoom:hover {
+  transform: scale(1.05); /* Aumenta el tamaño en un 5% al pasar el mouse */
+}
